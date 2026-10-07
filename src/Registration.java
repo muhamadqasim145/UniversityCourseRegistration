@@ -15,4 +15,8 @@ public class Registration {
         course.displayCourseInfo();
         System.out.println("=================================");
     }
+    public void displayConfirmationMessage() {
+    System.out.println("\n[CONFIRMATION]: Registration successfully completed for " 
+            + student.getStudentName() + " in course " + course.getCourseCode() + "!");
+}
 }
