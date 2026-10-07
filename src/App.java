@@ -1,6 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-      Student student1 = new Student("S101", "Alice Smith", "Computer Science");
+    Student student1 = new Student("S101", "Alice Smith", "Computer Science");
+        Course course1 = new Course("CS201", "Data Structures", 3);
+
         student1.displayStudentInfo();
+        course1.displayCourseInfo()
     }
 }
